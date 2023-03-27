@@ -1,0 +1,14 @@
+{
+  "name": "cwh",
+  "version": "1.0.0",
+  "description": "this is the best package",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harry",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,70 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body::before{
+    opacity: 0.7;
+    content: "";
+    background: url("./bird_2.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    height: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+ul li{
+    padding: 10px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 20px;
+}
+ul{
+    background-color: red;
+    color: black;
+    width: 100vw;
+    margin: 0;
+}
+div{
+    /* background-color: yellow; */
+    color: black;
+    text-align: center;
+    width: 75vw;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.input,textarea{
+    display: block;
+    padding: 3px;
+    margin: 10px auto;
+    width: 50vw;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+textarea{
+    padding-bottom: 100px;
+}
+.btn{
+    border: 2px solid black;
+    outline: none;
+    background: white;
+    color: balck;
+    padding: 10px;
+    margin: 10px;
+    width: 25vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
